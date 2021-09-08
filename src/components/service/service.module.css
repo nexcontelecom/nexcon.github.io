@@ -1,0 +1,168 @@
+@value makerWhite, makerGray, makerBlue from "../../common/color.css";
+@value makerSmall, makerMedium, makerLarge from "../../common/size.css";
+
+/*--------------------  Banner ------------------*/
+.banner {
+  background-image: none;
+}
+
+.banner {
+  background-image: url("/src/background-img/service.jpg") ;
+  height: 90vh;
+  padding-left: 7vw;
+  padding-top: 15vh;
+}
+
+.mainTitle {
+  font-size: 5rem;
+  color: makerWhite;
+  animation: smoothAppear2 0.5s;
+}
+
+.subTitle {
+  font-size: makerSmall;
+  color: makerWhite;
+  width: 35rem;
+  animation: smoothAppear2 1s;
+}
+
+.services {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 7rem 7rem 7rem;
+}
+
+.serviceTitle {
+  color:makerBlue;
+  font-size: makerLarge;
+}
+
+.item {
+  display: flex;
+  width: 60rem;
+  margin:3rem;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.thumbnail {
+  animation: smoothAppear3 0.8s;
+}
+
+.thumbnailTitle {
+  font-size: makerMedium;
+  margin:1rem;
+}
+.thumbnailTitle.red {
+  color:#e0004b;
+}
+
+.description {
+  font-size: 1rem;
+  width: 35rem;
+  text-align: left;
+  color:makerGray;
+  animation: smoothAppear2 0.8s;
+}
+
+.button {
+  text-align: right;
+}
+
+.link {
+  background-color: makerBlue;
+  padding:0.5rem 1rem 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* -----------unmount----------------- */
+
+.item1{
+  display: flex;
+  width: 60rem;
+  margin:3rem;
+  justify-content: space-between;
+  text-align: center;
+  opacity: 0;
+  transition: 500ms;
+}
+
+.thumbnail1 {
+  animation: unmount3 1s;
+}
+
+.description1 {
+  font-size: 1rem;
+  width: 35rem;
+  text-align: left;
+  color:makerGray;
+  animation: unmount2 1s;
+}
+
+@keyframes unmount1 {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
+}
+
+@keyframes unmount2 {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(20rem);
+  }
+}
+@keyframes unmount3 {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-20rem);
+  }
+}
+
+/* ----------mount -------------- */
+@keyframes smoothAppear1 {
+  from {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes smoothAppear2 {
+  from {
+    opacity: 0;
+    transform: translateX(20rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes smoothAppear3 {
+  from {
+    opacity: 0;
+    transform: translateX(-20rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

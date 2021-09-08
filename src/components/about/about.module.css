@@ -1,0 +1,216 @@
+@value makerWhite,makerBlue, makerGray from "../../common/color.css";
+@value makerLarge, makerMedium from "../../common/size.css";
+
+/*--------------------  Banner ------------------*/
+.banner {
+  background-image: none;
+}
+.banner {
+  background-image: url("/src/background-img/about.jpg");
+  height: 90vh;
+  padding-left: 7vw;
+  padding-top: 15vh;
+}
+
+.mainTitle1{
+  font-size: 5rem;
+  color: makerWhite;
+  animation: smoothAppear2 0.5s;
+  margin-bottom: 0;
+}
+.mainTitle2{
+  font-size: 5rem;
+  color: makerWhite;
+  animation: smoothAppear2 0.8s;
+  margin: 0;
+}
+.mainTitle3{
+  font-size: 5rem;
+  color: makerWhite;
+  animation: smoothAppear2 1s;
+  margin: 0;
+}
+
+/*--------------------  What we do ------------------*/
+
+.whatWeDo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10rem 7rem 15rem 7rem;
+}
+
+.whatWeDoTitle {
+  color:makerBlue;
+  font-size: makerLarge;
+}
+
+.textBox {
+  display: flex;
+  width: 60rem;
+  margin:3rem;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.textBoxTitle {
+  font-size: makerMedium;
+  font-weight: 400;
+  animation: smoothAppear3 1s;
+}
+
+.description {
+  text-align: left;
+  color: makerGray;
+  font-weight: 400;
+  font-size: 1.2rem;
+  width: 30rem;
+  animation: smoothAppear2 1s;
+}
+
+/*--------------------  Principle ------------------*/
+
+.principle {
+  padding: 4rem 7rem 7rem 7rem;
+  text-align: center;
+  background-color: #ededed;
+  height: 40rem;
+}
+
+.principleTitle {
+  color:makerBlue;
+  font-size: makerLarge;
+  margin-bottom: 0;
+}
+
+.items {
+  display: flex;
+  white-space:nowrap;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.item1 {
+  margin: 1rem;
+  animation: smoothAppear1 0.7s;
+}
+.item2 {
+  margin: 1rem;
+  animation: smoothAppear1 1s;
+}
+.item3 {
+  margin: 1rem;
+  animation: smoothAppear1 1.3s;
+}
+
+.image {
+  width: 8rem;
+  height: 8rem;
+}
+
+/* -----------Unmount------------ */
+
+.textBox1 {
+  display: flex;
+  width: 60rem;
+  margin:3rem;
+  justify-content: space-between;
+  text-align: center;
+  opacity: 0;
+  transition: 500ms;
+}
+
+.textBoxTitle1 {
+  font-size: makerMedium;
+  font-weight: 400;
+  animation: unmount3 1s;
+}
+
+.description1 {
+  text-align: left;
+  color: makerGray;
+  font-weight: 400;
+  font-size: 1.2rem;
+  width: 30rem;
+  animation: unmount2 1s;
+}
+
+.item4 {
+  margin: 1rem;
+  animation: unmount1 1.3s;
+}
+
+.item5 {
+  margin: 1rem;
+  animation: unmount1 1s;
+}
+
+.item6 {
+  margin: 1rem;
+  animation: unmount1 0.7s;
+}
+@keyframes unmount1 {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
+}
+
+@keyframes unmount2 {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(20rem);
+  }
+}
+@keyframes unmount3 {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-20rem);
+  }
+}
+
+/* ----------mount -------------- */
+@keyframes smoothAppear1 {
+  from {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes smoothAppear2 {
+  from {
+    opacity: 0;
+    transform: translateX(20rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes smoothAppear3 {
+  from {
+    opacity: 0;
+    transform: translateX(-20rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

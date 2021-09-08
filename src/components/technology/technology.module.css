@@ -1,0 +1,187 @@
+@value makerWhite, makerGray, makerBlue from "../../common/color.css";
+@value makerSmall, makerMedium, makerLarge from "../../common/size.css";
+
+
+/*--------------------  Banner ------------------*/
+.banner {
+  background-image: none;
+}
+
+.banner {
+  background-image: url("/src/background-img/technology.jpg");
+  height: 90vh;
+  padding-left: 7vw;
+  padding-top: 15vh;
+}
+
+.mainTitle {
+  font-size: 5rem;
+  color: makerWhite;
+  animation: smoothAppear2 0.5s;
+}
+
+.subTitle {
+  font-size: makerSmall;
+  color: makerWhite;
+  animation: smoothAppear2 1s;
+}
+
+/*--------------------  Technology ------------------*/
+
+.technologies {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 7rem 7rem 7rem;
+  height: 120rem;
+}
+
+.technologyTitle {
+  color:makerBlue;
+  font-size: makerLarge;
+}
+
+.textBox {
+  margin:2rem;
+}
+
+.Box {
+  width: 40rem;
+}
+
+.title {
+  font-size: makerMedium;
+  margin-top:0;
+  animation: smoothAppear1 0.5s;
+}
+
+.image {
+  height: 16rem;
+  animation: smoothAppear2 0.5s;
+}
+
+.description {
+  color: makerGray;
+  animation: smoothAppear3 0.5s;
+}
+
+.list {
+  margin-bottom: 0.5rem;
+  width: 40rem;
+  color: makerGray;
+  font-size: 1rem;
+  font-weight: bold;
+  list-style-type: disc;
+  animation: smoothAppear3 0.5s;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  width: 70rem;
+  margin-left: 3rem;
+  margin-right:3rem;
+}
+
+/* --------------Unmount ---------------- */
+.text1 {
+  display: flex;
+  justify-content: space-between;
+  width: 70rem;
+  margin-left: 3rem;
+  margin-right:3rem;
+  opacity: 0;
+  transition: 500ms;
+}
+
+.title1 {
+  font-size: makerMedium;
+  margin-top:0;
+  animation: unmount1 0.5s;
+}
+
+.image1 {
+  height: 16rem;
+  animation: unmount2 0.5s;
+}
+
+.description1 {
+  color: makerGray;
+  animation: unmount3 0.5s;
+}
+
+.list1 {
+  margin-bottom: 0.5rem;
+  width: 40rem;
+  color: makerGray;
+  font-size: 1rem;
+  font-weight: bold;
+  list-style-type: disc;
+  animation: unmount3 0.5s;
+}
+
+@keyframes unmount1 {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
+}
+
+@keyframes unmount2 {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(20rem);
+  }
+}
+@keyframes unmount3 {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-20rem);
+  }
+}
+
+/* ----------mount -------------- */
+@keyframes smoothAppear1 {
+  from {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes smoothAppear2 {
+  from {
+    opacity: 0;
+    transform: translateX(20rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes smoothAppear3 {
+  from {
+    opacity: 0;
+    transform: translateX(-20rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

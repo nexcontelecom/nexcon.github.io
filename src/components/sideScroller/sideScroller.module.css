@@ -1,0 +1,48 @@
+.arrows {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:auto;
+  top: 25%;
+  left: 95%;
+  height: 30rem;
+  opacity: 0.5;
+}
+
+.upArrow {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-left: solid 5px #c4c4c4;
+  border-top: solid 5px #c4c4c4;
+  border-radius: 5px;
+  box-sizing: border-box;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(45deg);
+  cursor:pointer;
+}
+
+.upArrow:hover {
+  transition: 200ms;
+  border-left: solid 5px #525252;
+  border-top: solid 5px #525252;
+}
+
+.downArrow {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-left: solid 5px #c4c4c4;
+  border-top: solid 5px #c4c4c4;
+  border-radius: 5px;
+  box-sizing: border-box;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  cursor:pointer;
+}
+
+.downArrow:hover {
+  transition: 200ms;
+  border-left: solid 5px #525252;
+  border-top: solid 5px #525252;
+}
