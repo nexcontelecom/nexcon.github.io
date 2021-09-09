@@ -26,7 +26,7 @@ function App() {
   },[root,sections])
 
   return (
-    <Router>
+    <Router >
       <Navbar />
       <div className="app">
         <Switch>
