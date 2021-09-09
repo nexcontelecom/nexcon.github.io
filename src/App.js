@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState,useCallback } from "react";
-import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import {HashRouter as Router,Switch,Route} from "react-router-dom";
 import Navbar from "./components/navbar/navbar";
 import Footer from "./components/footer/footer";
 import AboutUs from "./components/about/about";
