@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/nexcon.github.io/static/css/main.9bbf58b1.chunk.css",
-    "main.js": "/nexcon.github.io/static/js/main.41707334.chunk.js",
-    "main.js.map": "/nexcon.github.io/static/js/main.41707334.chunk.js.map",
-    "runtime-main.js": "/nexcon.github.io/static/js/runtime-main.105ac4e8.js",
-    "runtime-main.js.map": "/nexcon.github.io/static/js/runtime-main.105ac4e8.js.map",
-    "static/js/2.43bc3489.chunk.js": "/nexcon.github.io/static/js/2.43bc3489.chunk.js",
-    "static/js/2.43bc3489.chunk.js.map": "/nexcon.github.io/static/js/2.43bc3489.chunk.js.map",
-    "index.html": "/nexcon.github.io/index.html",
-    "static/css/main.9bbf58b1.chunk.css.map": "/nexcon.github.io/static/css/main.9bbf58b1.chunk.css.map",
-    "static/js/2.43bc3489.chunk.js.LICENSE.txt": "/nexcon.github.io/static/js/2.43bc3489.chunk.js.LICENSE.txt",
-    "static/media/about.module.css": "/nexcon.github.io/static/media/about.bce1ece4.jpg",
-    "static/media/contact.module.css": "/nexcon.github.io/static/media/contact.72425e08.jpg",
-    "static/media/service.module.css": "/nexcon.github.io/static/media/service.93fcd474.jpg",
-    "static/media/technology.module.css": "/nexcon.github.io/static/media/technology.9e419eec.jpg"
+    "main.css": "/static/css/main.07492416.chunk.css",
+    "main.js": "/static/js/main.41707334.chunk.js",
+    "main.js.map": "/static/js/main.41707334.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a2a2ed2f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a2a2ed2f.js.map",
+    "static/js/2.15918076.chunk.js": "/static/js/2.15918076.chunk.js",
+    "static/js/2.15918076.chunk.js.map": "/static/js/2.15918076.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.07492416.chunk.css.map": "/static/css/main.07492416.chunk.css.map",
+    "static/js/2.15918076.chunk.js.LICENSE.txt": "/static/js/2.15918076.chunk.js.LICENSE.txt",
+    "static/media/about.module.css": "/static/media/about.bce1ece4.jpg",
+    "static/media/contact.module.css": "/static/media/contact.72425e08.jpg",
+    "static/media/service.module.css": "/static/media/service.93fcd474.jpg",
+    "static/media/technology.module.css": "/static/media/technology.9e419eec.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.105ac4e8.js",
-    "static/js/2.43bc3489.chunk.js",
-    "static/css/main.9bbf58b1.chunk.css",
+    "static/js/runtime-main.a2a2ed2f.js",
+    "static/js/2.15918076.chunk.js",
+    "static/css/main.07492416.chunk.css",
     "static/js/main.41707334.chunk.js"
   ]
 }
