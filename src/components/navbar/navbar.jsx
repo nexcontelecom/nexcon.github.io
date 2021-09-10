@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <header className={`${styles.header} ${colorFlag ? styles.headerOn : ""}` }>
       <div className={styles.logo}>
-        <h1 className={styles.logoTitle} >NEXCON TELECOM</h1>
+        <h1 className={styles.logoTitle} >NexCon Telecom</h1>
         <img className={styles.homeImage} src="img/home_button.png" alt="home" onClick={onHomeButton}/>
       </div>
       <nav className={styles.navbar}>

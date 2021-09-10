@@ -32,7 +32,7 @@ const AboutUs = ({ scroll, SideScroller, flag, root,onSections }) => {
     <article className={styles.aboutUs}>
       {/* Banner */}
       <section ref={bannerRef} className={styles.banner}>
-      <h1 className={styles.mainTitle1}>We Make</h1>
+      <h1 className={styles.mainTitle1}>We make</h1>
       <h1 className={styles.mainTitle2}>Hyper-connected</h1>
       <h1 className={styles.mainTitle3}>Society</h1>
       </section>
@@ -48,7 +48,7 @@ const AboutUs = ({ scroll, SideScroller, flag, root,onSections }) => {
             <div>
             <h3 className={styles.description}>
               넥스컨 텔레컴은 상당한 수준의 지적 재산권을 축적한 수년간의 기술력을 보유한
-              기술 회사로서 사람들을 연결하고, 비즈니스 역량을 강화하여 더 풍요롭게 생활할 수 있는 “Ad-Hoc-Network” 기반 모바일 기술 및 혁신을 개발하는 데
+              기술 회사로서 사람들을 연결하고, 비즈니스 역량을 강화하여 더 풍요롭게 생활할 수 있는 “Ad-hoc Network” 기반 모바일 기술 및 혁신을 개발하는 데
               전념하고 있습니다. 우리는 고객이 네트워크 운영을 개선하면서 발생되는 상당한
               운영 비용을 절감하여 네트워크 시스템을 최대한 활용할 수 있도록 돕습니다.
             </h3>
@@ -84,7 +84,7 @@ const AboutUs = ({ scroll, SideScroller, flag, root,onSections }) => {
               <h1>최전선의 기술</h1>
               <h3>
                 고객, 환경, 사람을 위한 “Global Best”<br/>
-                품질의 “Ad-Hoc-Network” 기반 통신을<br/>
+                품질의 “Ad-hoc Network” 기반 통신을<br/>
                 제공합니다.
               </h3>
             </div>
