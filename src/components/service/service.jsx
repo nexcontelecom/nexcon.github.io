@@ -61,7 +61,7 @@ const Service = ({scroll, SideScroller, flag, root,onSections}) => {
             <div className={styles.description1}>
               <h3>와이파이온은 넥스컨텔레컴이 제공하는 새로운 와이파이 무료 이용 앱서비스 입니다. 비밀번호가 필요없고, 빠른 전송 속도, 데이터 절약을 한번에 제공합니다. 또 이 서비스에 AP를 제공하는 소상공인, 혹은 다양한 사업자에게 이익이 될 수 있도록 광고 서비스를 제공합니다.</h3>
               <div className={styles.button}>
-                <a className={styles.link} rel="noreferrer" href="https://www.wifion.co.kr" target="_blank">자세히 보기</a>
+                <a className={styles.link} rel="noreferrer" href="https://www.wifion.in" target="_blank">자세히 보기</a>
               </div>
             </div> 
           </div>
